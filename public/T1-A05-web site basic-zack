@@ -1,0 +1,35 @@
+<html>
+  <head>
+	<style>	p {color: red;}
+		   {font-size: 30px;}		</style>
+	<script>	</script>
+	<title>Basic head</title>
+  </head>
+  <body>
+
+
+	<h1 align=center>Basic Webpage by Zackery</h1>
+
+
+
+<p>
+this is <b> bold </b> this is <i> italic </i>
+this is <b> <i> both </b> </i> and this isnt
+</p>
+I also included a font-size increase<br>
+
+This is an online image <br>
+<img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"><br>
+
+This is my image<br>
+<img src="Myimage.jpg"><br>
+
+
+This is a link
+<a href="https://zackery01.github.io/zackery-coding-ellis-2019/public/">My Github</a><br>
+
+
+
+
+</body>
+</html>
