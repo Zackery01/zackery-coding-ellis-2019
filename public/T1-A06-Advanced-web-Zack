@@ -1,0 +1,103 @@
+<html>
+	<style>	body { background: grey; 
+                       table#t01 
+  width: 100%; 
+  background-color:white;}	</style>
+	<head>	
+	<script>	</script>
+	<title>Advanced webpage</title>
+<body>
+
+    <h1 align=center>Advanced Web Page by Zack</h1>
+    
+    <font color=yellow> Prove you can use: Tables, Lists, Forms</fonts>
+
+<table id="t01" border=1>
+<tr><td>A</td><td>1</td><td>a</td><td>I'VE</td></tr>
+<tr><td>B</td><td>2</td><td>b</td><td>RUN</td></tr>
+<tr><td>C</td><td>3</td><td>c</td><td>OUT</td></tr>
+<tr><td>D</td><td>4</td><td>d</td><td>OF</td></tr>
+<tr><td>E</td><td>5</td><td>e</td><td>STUFF</td></tr>
+<tr><td>F</td><td>6</td><td>f</td><td>TO</td></tr>
+<tr><td>G</td><td>7</td><td>g</td><td>PUT</td></tr>
+<tr><td>H</td><td>8</td><td>h</td><td>HERE</td></tr>
+</table><br><br>
+<table border=0>
+<tr><td>A</td><td>1</td><td>a</td><td>THIS</td></tr>
+<tr><td>B</td><td>2</td><td>b</td><td>ONE</td></tr>
+<tr><td>C</td><td>3</td><td>c</td><td>IS</td></tr>
+<tr><td>D</td><td>4</td><td>d</td><td>DIFFRENT</td></tr>
+<tr><td>E</td><td>5</td><td>e</td><td>I</td></tr>
+<tr><td>F</td><td>6</td><td>f</td><td>SWEAR</td></tr>
+<tr><td>G</td><td>7</td><td>g</td><td>NO</td></tr>
+<tr><td>H</td><td>8</td><td>h</td><td>COPY-PASTE</td></tr>
+<tr><td>I</td><td>9</td><td>i</td><td>HERE</td></tr>
+</table><br><br>
+
+Make several tables one must be 3x4<br>
+
+<ol> fav. Food
+<li> meat
+      <ol>
+       <li>Chicken
+       <li>Steak
+       <li>bacon
+      </ol>
+<li>Fruit & vegetables
+    <ol>
+    <li>Apples
+    <li>bannanas
+    <li>Kiwis
+    <li>Grapes
+    <li>Watermelon
+    <li>oranges
+    </ol>
+</ol>
+
+<ul> fav. countries
+<li> Canada
+<ul>
+<li>i never left canada
+<li>Im boring i know
+</ul>
+<li> Still canada
+<ul>
+<li>fun fact still canada
+</ul>
+</ul>
+<br><br>
+
+Can you make a list of all the other types of foods (meat, vegetables etc)
+Using lists inside the list.<br><br>
+
+The following are all form elements (Add to them):<br>
+<form >
+
+First Name:<input type=text id="myText01" value="Zackery"><br>
+Middle Name:<input type=text id="myText02" value="The"><br>
+Last Name:<input type=text id="myText03" value="third"><br>
+Whats your gender?<br>
+<input type=checkbox>Man<input type=checkbox>Woman<br>
+How you feeling?<br>
+<input type=radio name="Good" value="yes">Good<input type=radio name="Bad" value="no">Bad<br>
+
+<input type=hidden><input type=file>
+<input type=reset><input type=submit>
+
+<input type=button value=click onclick="alert('Bro please dont click me, im hurt by that.')"><br>
+<textarea id="myArea01" cols=60 rows=5 > Please dont die </textarea><br><br>Password<br>
+<input type=password><br><br><br>
+<select id="mysekect01" size=2>
+<option value='myOne'>one 
+<option value='myTwo'>Two 
+<option value='myThree'>Three
+<option value='myFour'>Four 
+<option value='myFive'>Crack is wack 
+<option value='mySix'>Six 
+</select>
+
+</form>
+
+</body>
+
+</html>
