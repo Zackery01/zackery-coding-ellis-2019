@@ -12,14 +12,30 @@
   
 <option value="groove">groove  
 <option value="dotted">dotted
-<option value="dashed">dashed                                           
-<option value="solid">solid                                           
+<option value="dashed">dashed
+<option value="solid">solid
 <option value="double">double
 <option value="inset">inset
 <option value="outset">outset
 <option value="ridge">ridge
 <option value="hidden">hidden
 <option value="none">none  
+</select>
+
+
+<select id="myBackground01" size=1 onChange="{
+   let myTemp = document.getElementById('myBackground01').value
+   document.getElementById('myDiv02').style.backgroundColor = myTemp
+}">
+  
+<option value="black">Black
+<option value="red">Red
+<option value="blue">Blue
+<option value="yellow">Yellow
+<option value="green">Green
+<option value="white">white
+<option value="purple">purple
+<option value="pink">Pink 
 </select>
 
 <span id="myDiv01" style="border-style:groove; border-width:5;
