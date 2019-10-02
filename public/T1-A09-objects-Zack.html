@@ -1,0 +1,23 @@
+<h1 align=center>t1a09-objects-Zack.html<br>
+   Objects, decisions, decimals by Zack</h1>
+
+
+Body Temp: <input type=text id="myText01" value="36.1">degrees Celcius
+<br>
+
+<input type=button value="Input/Output" onclick="{   
+  let myPerson = {'age':'22', 'name':'Zack'};
+      let myTemp = document.getElementById('myText01').value
+                                      
+     let myPrintout =  'myPerson object :' +
+       JSON.stringify(myPerson, null, 3) + ' myPerson.age : ' + myPerson.age  
+                                      
+       let myIf = 'cool'                               
+        if ( parseInt(myPerson.age) >= 20)
+{myIf = 'You are a adult'}                              
+                                      
+        document.getElementById('myDiv01').innerHTML = myIf                              
+        document.getElementById('myTextArea01').value = myPrintout                               
+}">
+<div id="myDiv01">...</div><br>
+<textarea id="myTextArea01" rows=10 cols=80 noWRAP>...</textarea>
