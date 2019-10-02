@@ -8,6 +8,6 @@ https://gitpod.io/#github.com/Zackery01/zackery-coding-ellis-2019/public/
 
 Than enter
 
-```apachectl
-start
+```
+apachectl start
 ```
