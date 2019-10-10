@@ -1,1 +1,21 @@
- myArray = new Array()
+<h1 align=center> t1a10-object-array by fred</h1>
+
+<input type=button value="Show Object Array" onclick="{
+   let myObjectArray = {'age':'22', 'name':'Fred'};                                                      
+                                                  
+   let myPrintout='myObjectArray = '+JSON.stringify(myObjectArray,null,3)
+   document.getElementById('myTextArea01').value = myPrintout
+   document.getElementById('myDiv01').innerHTML = 'Nothing useful here'
+}">
+
+<input type=button value="Show Array Object" onclick="{
+   let myObjectArray = {'age':'22', 'name':'Fred'};                                                      
+                                                  
+   let myPrintout='myArrayObject = '+JSON.stringify(myArrayObject,null,3)
+   document.getElementById('myTextArea01').value = myPrintout
+   document.getElementById('myDiv01').innerHTML = 'Nothing useful here'
+}">
+
+
+<div id="myDiv01">...</div><br>
+<textarea id=myTextArea01" rows=10 cols=80 noWRAP><...</taextarea>
