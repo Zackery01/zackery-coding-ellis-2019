@@ -1,5 +1,6 @@
 <script>
   let myInterval
+  let myInterval02
 </script>  
 
 
@@ -16,4 +17,11 @@
        document.getElementById('myDiv01').style.left = parseInt(document.getElementById('myDiv01').style.left) + 10
             } ,200)                                      
  }">                                                 
-
+<input type=button value="Go left Auto" onclick="{
+                                                  
+       clearInterval(myInterval02)
+       myInterval02 = setInterval(function(){
+                                                  
+       document.getElementById('myDiv01').style.left = parseInt(document.getElementById('myDiv01').style.left) - 10
+            } ,200)                                      
+ }">                                       
