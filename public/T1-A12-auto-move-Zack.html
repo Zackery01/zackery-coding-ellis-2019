@@ -24,4 +24,20 @@
                                                   
        document.getElementById('myDiv01').style.left = parseInt(document.getElementById('myDiv01').style.left) - 10
             } ,200)                                      
- }">                                       
+ }">    
+<input type=button value="Go down Auto" onclick="{
+                                                  
+       clearInterval(myInterval03)
+       myInterval03 = setInterval(function(){
+                                                  
+       document.getElementById('myDiv01').style.top = parseInt(document.getElementById('myDiv01').style.top) + 10
+            } ,200)                                      
+ }">                      
+<input type=button value="Go up Auto" onclick="{
+                                                  
+       clearInterval(myInterval04)
+       myInterval04 = setInterval(function(){
+                                                  
+       document.getElementById('myDiv01').style.top = parseInt(document.getElementById('myDiv01').style.top) - 10
+            } ,200)                                      
+ }">                      
