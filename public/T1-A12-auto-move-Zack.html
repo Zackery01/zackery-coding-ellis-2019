@@ -9,18 +9,17 @@
 
 <h1 align=center>Auto-move Zack</h1>
 
-<div id=myDiv01 style="position:absolute; left:100; top:100;>
-                 Hey
-                </div>     
+<div id=myDiv01 style="position:absolute; left:100; top:100;>Hey</div>     
 
-<input type=button value="Go Right Auto" onclick="{
+<input type=button value="Go right Auto" onclick="{
                                                   
        clearInterval(myInterval)
        myInterval = setInterval(function(){
                                                   
        document.getElementById('myDiv01').style.left = parseInt(document.getElementById('myDiv01').style.left) + 10
             } ,200)                                      
- }">                                                 
+ }"> 
+   
 <input type=button value="Go left Auto" onclick="{
                                                   
        clearInterval(myInterval02)
@@ -28,7 +27,8 @@
                                                   
        document.getElementById('myDiv01').style.left = parseInt(document.getElementById('myDiv01').style.left) - 10
             } ,200)                                      
- }">    
+ }"> 
+   
 <input type=button value="Go down Auto" onclick="{
                                                   
        clearInterval(myInterval03)
