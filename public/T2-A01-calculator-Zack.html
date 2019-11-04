@@ -2,10 +2,7 @@
   <input type=text id="myText01" value="3">
 
   
-  <input type=button value=run onclick="{
-	let myTemp = document.getElementById('myText01').value
-	document.getElementById('myDiv01').innerHTML = myTemp
-}">
+  
 
 	
   <select id="mySelect01" size=1 onChange="{
@@ -26,6 +23,11 @@
 </select>
 	
 <input type=text id="myText01" value="3">
+	
+<input type=button value=run onclick="{
+	let myTemp = document.getElementById('myText01').value
+	document.getElementById('myDiv01').innerHTML = myTemp
+}">	
 	
    <div id="myDiv01">...</div>
   
