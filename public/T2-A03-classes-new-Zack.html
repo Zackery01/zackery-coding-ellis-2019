@@ -3,7 +3,7 @@
 <input type=text id="myNameInput" placeholder="Enter an animal name here"
 value="">
 
-<input id="myButton130" type="button" value="Make and show class myAnimals"
+<input id="myButton131" type="button" value="Make and show class myAnimals"
 onclick="{
  class myAnimal {
   constructor(passName, passAge) {        
@@ -11,11 +11,21 @@ onclick="{
   this.myAge = passAge;
   }
   myShow(){
-     document.getElementById('myDiv130').innerHTML = 'Hello '+ this.myName +'. You are ' + this.myAge + ' years old<br>'
+     document.getElementById('myDiv131').innerHTML = 'Hello '+ this.myName +'. You are ' + this.myAge + ' years old<br>'
    }
 }  // end class myAnimal
-  myDog =new myAnimal('Snickers', 5)
-  myDog.myShow()
+         
+         
+          class myCat extends myAnimal {
+ 
+   myShow(){
+     document.getElementById('myDiv131').innerHTML = this.myName + ' is a great cat who is +' this.myAge + ' years old<br>'
+   }
+}  // end extended class myCat
+         
+         
+  myPet =new myCat('Fluffy', 15)
+  myPet.myShow()
 }"><br><br>
 <div id='myDiv130'>...</div><br>
 
