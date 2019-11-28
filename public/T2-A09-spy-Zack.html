@@ -84,7 +84,7 @@
 
 <input type=button value="decrypt" onclick="{
    let myTemp = ''
-   myString = document.getElementById('myArea02').value.toLowerCase().split('')
+   myString = document.getElementById('myArea02').value.split('')
    for (let myLoop=0;  myLoop < myString.length; myLoop++){
       myTemp = myString[myLoop]                                     
       if (myString[myLoop] == 'b') {myTemp  = 'a'}
@@ -126,7 +126,34 @@
       if (myString[myLoop] == '7') {myTemp  = '6'}
       if (myString[myLoop] == '8') {myTemp  = '7'}
       if (myString[myLoop] == '9') {myTemp  = '8'}
-      if (myString[myLoop] == '1') {myTemp  = '9'}                                      
+      if (myString[myLoop] == '1') {myTemp  = '9'} 
+                                            
+      if (myString[myLoop] == 'B') {myTemp  = 'A'}
+      if (myString[myLoop] == 'C') {myTemp  = 'B'}
+      if (myString[myLoop] == 'D') {myTemp  = 'C'}
+      if (myString[myLoop] == 'E') {myTemp  = 'D'}
+      if (myString[myLoop] == 'F') {myTemp  = 'E'}
+      if (myString[myLoop] == 'G') {myTemp  = 'F'}
+      if (myString[myLoop] == 'H') {myTemp  = 'G'}
+      if (myString[myLoop] == 'I') {myTemp  = 'H'}
+      if (myString[myLoop] == 'J') {myTemp  = 'I'}
+      if (myString[myLoop] == 'K') {myTemp  = 'J'}
+      if (myString[myLoop] == 'L') {myTemp  = 'K'}
+      if (myString[myLoop] == 'M') {myTemp  = 'L'}
+      if (myString[myLoop] == 'N') {myTemp  = 'M'}
+      if (myString[myLoop] == 'O') {myTemp  = 'N'}
+      if (myString[myLoop] == 'P') {myTemp  = 'O'}
+      if (myString[myLoop] == 'Q') {myTemp  = 'P'}
+      if (myString[myLoop] == 'R') {myTemp  = 'Q'}
+      if (myString[myLoop] == 'S') {myTemp  = 'R'}
+      if (myString[myLoop] == 'T') {myTemp  = 'S'}                                          
+      if (myString[myLoop] == 'U') {myTemp  = 'T'}
+      if (myString[myLoop] == 'V') {myTemp  = 'U'}
+      if (myString[myLoop] == 'W') {myTemp  = 'V'}
+      if (myString[myLoop] == 'X') {myTemp  = 'W'}
+      if (myString[myLoop] == 'Y') {myTemp  = 'X'}
+      if (myString[myLoop] == 'Z') {myTemp  = 'Y'}
+      if (myString[myLoop] == 'A') {myTemp  = 'Z'}                                      
       myString[myLoop] = myTemp
     }
     document.getElementById('myArea03').value = myString.join('')                                        
