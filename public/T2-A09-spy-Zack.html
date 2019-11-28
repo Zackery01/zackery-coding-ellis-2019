@@ -35,7 +35,15 @@
       if (myString[myLoop] == 'y') {myTemp  = 'z'}
       if (myString[myLoop] == 'z') {myTemp  = 'a'}
                                             
-      
+      if (myString[myLoop] == '[') {myTemp  = ']'}
+      if (myString[myLoop] == ']') {myTemp  = '''}
+      if (myString[myLoop] == ''') {myTemp  = ';'}                                          
+      if (myString[myLoop] == ';') {myTemp  = '/'}
+      if (myString[myLoop] == '/') {myTemp  = '.'}
+      if (myString[myLoop] == '.') {myTemp  = ','}
+      if (myString[myLoop] == ',') {myTemp  = '?'}
+      if (myString[myLoop] == '?') {myTemp  = '@'}
+      if (myString[myLoop] == '@') {myTemp  = '['}
                                             
       if (myString[myLoop] == '1') {myTemp  = '0'}
       if (myString[myLoop] == '2') {myTemp  = '1'}
@@ -72,7 +80,12 @@
       if (myString[myLoop] == 'W') {myTemp  = 'X'}
       if (myString[myLoop] == 'X') {myTemp  = 'Y'}
       if (myString[myLoop] == 'Y') {myTemp  = 'Z'}
-      if (myString[myLoop] == 'Z') {myTemp  = 'A'}                                      
+      if (myString[myLoop] == 'Z') {myTemp  = 'A'}
+                                            
+     
+      
+                                            
+                                            
                                             
       myString[myLoop] = myTemp
     }
@@ -115,7 +128,15 @@
       if (myString[myLoop] == 'z') {myTemp  = 'y'}
       if (myString[myLoop] == 'a') {myTemp  = 'z'}
                                             
-      if (myString[myLoop] == '=') {myTemp  = ' '}
+      if (myString[myLoop] == '[') {myTemp  = '@'}
+      if (myString[myLoop] == ']') {myTemp  = '['}
+      if (myString[myLoop] == ''') {myTemp  = ']'}                                          
+      if (myString[myLoop] == ';') {myTemp  = '''}
+      if (myString[myLoop] == '/') {myTemp  = ';'}
+      if (myString[myLoop] == '.') {myTemp  = '/'}
+      if (myString[myLoop] == ',') {myTemp  = '.'}
+      if (myString[myLoop] == '?') {myTemp  = ','}
+      if (myString[myLoop] == '@') {myTemp  = '?'}
                                             
       
       if (myString[myLoop] == '2') {myTemp  = '1'}
