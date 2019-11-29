@@ -1,1 +1,32 @@
+<h2> T2-A10-local-storage-Zack.html </h2>
 
+<body onload="{
+   myStorage = localStorage.getItem('myStoredText')           
+   if(myStorage  !=null){
+      document.getElementById('myText01').value = myStorage        
+    }          
+}">
+  
+<body onunload="{
+   localstorage.setItem('myStoredText',document.getElementById('myText01').value)             
+}">
+  
+<input id="myText01" type=text size=70 value="" placeholder"write here to store stuff"><br>
+  
+<input type="button" value="store text" onclick="{
+  localstorage.setItem('myStoredText',document.getElementById('myText01').value)                                               
+  alert(document.getElementById('myText01').value + ' \nHas been stored')
+  document.getElementById('myText01').value = ''                                               
+}">              
+              
+<input type="button" value="retrive text" onclick="{ 
+ document.getElementById('myText01').value = localStorage.getItem('myStoredText')            
+}">              
+              
+              
+              
+              
+              
+              
+              
+              
