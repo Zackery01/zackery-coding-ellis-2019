@@ -1,50 +1,29 @@
 <script>
   let myInterval
-  let myInterval02
-  let myInterval03
-  let myInterval04
+  
+function myIsOnScreen(){
+  if (parseInt(document.GetElementById('myDiv01').style.left) > 400) {
+    document.getElementById('myDiv01').style.left = '397px'
+  }
+}
 </script>  
 
-
-
-
-<h1 align=center>Auto-move Zack</h1>
-
-<div id="myDiv01" style="position:absolute; left:500; top:500; "<a><img src="https://i.ibb.co/4jPtDxt/doot.jpg" alt="doot" border="0"></a>
-></div>    
-
-<input type=button value="Go right Auto" onclick="{
-                                                  
+<body onkeydown="{
+      let mykey = event.key
+//  let mykey = String.toLowerCase(event.key)
+                 
+    if (mykey == 'd') {
        clearInterval(myInterval)
        myInterval = setInterval(function(){
-                                                  
-       document.getElementById('myDiv01').style.left = parseInt(document.getElementById('myDiv01').style.left) + 10
-            } ,200)                                      
- }"> 
-   
-<input type=button value="Go left Auto" onclick="{
-                                                  
-       clearInterval(myInterval02)
-       myInterval02 = setInterval(function(){
-                                                  
-       document.getElementById('myDiv01').style.left = parseInt(document.getElementById('myDiv01').style.left) - 10
-            } ,200)                                      
- }"> 
-   
-<input type=button value="Go down Auto" onclick="{
-                                                  
-       clearInterval(myInterval03)
-       myInterval03 = setInterval(function(){
-                                                  
-       document.getElementById('myDiv01').style.top = parseInt(document.getElementById('myDiv01').style.top) + 10
-            } ,200)                                      
- }">                      
-<input type=button value="Go up Auto" onclick="{
-                                                  
-       clearInterval(myInterval04)
-       myInterval04 = setInterval(function(){
-                                                  
-       document.getElementById('myDiv01').style.top = parseInt(document.getElementById('myDiv01').style.top) - 10
-            } ,200)                                      
- }">                      
+                 
+          document.getElementById('myDiv01').style.left =
+                 parseInt(document.getElementById('myDiv01').style.left) + 3
+          myIsOnScreen()
+     } ,20)
+  }
+}">
+  
+<h1 align=center>Onkeydown Zack</h1>
 
+<div id="myDiv01" style="position:absolute; left:200; top:200; " >Hello press d</div>    
+</body>
