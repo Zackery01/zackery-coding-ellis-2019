@@ -1,4 +1,4 @@
-<body id="myBody" style="background-repeat:repeat; background-size: 150%" background="city-1.png.png">
+<body id="myBody" style="background-repeat:repeat; background-size: 200%" background="city-1.png.png">
 
 <h1 align=center>t2a11 Game Template by Fred</h1>
 <br><br><br><br>
@@ -49,7 +49,7 @@ function myCheckHit(){
    clearInterval(myClock)
    let myTemp = '100px 0px'
    myClock = setInterval(function(){
-      myGlobalX -= 1000
+      myGlobalX -= 10
       myTemp =  myGlobalX + 'px 0px'
       document.getElementById('myBody').style.backgroundPosition = myTemp
   }, 100)
